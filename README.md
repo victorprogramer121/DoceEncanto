@@ -1,0 +1,4 @@
+Olá a todos! Sejam bem vindos ao meu primeiro projeto! 
+A doceria/confeitaria DoceEncanto, é um lugar fictício, porém criado com muita dedicação e desempenho. Com o intuito de ajudar as pessoas ao realizarem seu pedido, a DoceEncanto tem a proposta de atendimento totalmente feito digital. Desde a hora de realizar o seu pedido até a hora em que ele chega a sua mesa
+Atualmente, este projeto está com o front-end totalmente pronto. Futuramente irei melhorar ele adicionando um banco de dados, para ser possível realizar o pedido. Trazer movimentações com JavaScript. Meios de pagamentos, com uma API que simulam pagamentos. E trazer o Java como uma linguagem back-end, voltada também para transferências bancarias. 
+Um lugar aconchegante, com um ambiente acolhedor e futurista ao mesmo temopo, com robôs prestando serviços de garçom. 
