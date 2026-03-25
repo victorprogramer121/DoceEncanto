@@ -24,8 +24,6 @@ body {
     font-size: 1em;
     display: flex;
     text-align: center;
-    margin: 0;
-    padding: 0;
     padding-top: 70px;
     flex-direction: column;
     min-height: 100vh; 
@@ -39,7 +37,7 @@ nav {
     height: auto;
     background-color: #FCE7E6;
     align-items: center;
-    padding: 10px 20px;          /* padding lateral */
+    padding: 10px;          /* padding lateral */
     z-index: 1000;
 }
 
@@ -91,13 +89,11 @@ main {
     background-color: #FCE7E6;
     width: 100%;
     max-width: 1300px;
-    padding: 20px;
-    text-align: center;
-    margin: 30px auto;
+    padding: 30px;
     border-radius: 20px;
-    height: auto;
     box-shadow: 5px 5px 15px rgba(192, 112, 212, 0.404);
     flex: 1;
+    margin: 90px;
 }
 
 main > img {
@@ -117,6 +113,7 @@ main p input[type="text"] {
     border-radius: 8px;
     border: 1px solid #BA5BBA;
     box-sizing: border-box;
+    display: flex;
 }
 
 
@@ -214,9 +211,14 @@ footer {
 
 @media (max-width: 500px) {
 
+    body {
+        padding-top: 300px;/*O que accontece é que o cell, acaba deixando tudo em coluna por conta da regra. Adicionei o padding-top, para empurrar o conteúdo do nav*/
+    }
+
     .menu {
         flex-direction: column;
         gap: 10px;
+        padding-bottom: 70px;
     }
 
     .pesquisa {
